@@ -1,0 +1,575 @@
+/** 
+Template Name: SOHAG - HTML Template
+Template URL: http://coderitsoltion.com
+Author: Coder IT Solution
+Author URI: http://coderitsoltion.com
+Description:Protfolio HTML Template
+Keywords: html,css,js
+
+**/
+
+ 	  /************************/
+	 /******* Main CSS *******/
+	/************************/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Myriad Pro';
+	overflow-x:hidden;
+	font-family: 'PT Serif', serif;
+	background:#101010; 
+}
+ul{
+ 	list-style:none;
+ 	padding: 0;
+ 	margin: 0;
+}
+a{
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+}
+.owl-dot:focus {
+	outline: none !important;
+}
+button:focus {
+	outline: none;
+}
+
+	  /************************/
+	 /****** Default CSS *****/
+	/************************/
+
+.section-padding{
+	padding: 4rem 0;
+}
+.padding-2 {
+	padding-top: 5rem;
+}
+p{
+	font-size: 1.6rem;
+	color:#9F9F9F;
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	line-height: 3rem;
+}
+	  /************************/
+	 /****** Header CSS S ****/
+	/************************/
+
+.header-area{
+	background: url(../images/header-banner.JPG) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 1;
+	z-index: 9999;
+}
+.header-area::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	z-index: -1;
+}
+.header-logo h2{
+	color:#fff;
+	font-family: 'Grandstander', cursive;
+	font-size: 3rem;
+	font-weight: 700;
+}
+.header-logo h2 span{
+	color:#009E66;
+}
+.header-menu ul {
+	display: flex;
+	justify-content: end;
+}
+
+.header-menu ul li a {
+	color: #dbd7d7;
+	font-size: 2rem;
+	font-family: 'Grandstander', cursive;
+	font-weight: 400;
+	display: block;
+	padding: 3rem 1rem;
+	transition: 1s;
+}
+.header-menu ul li a.active,
+.header-menu ul li:hover a{
+	color:#009E66;
+}
+
+.header-title h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 6rem;
+	font-family: 'Grandstander', cursive;
+	font-weight: 700;
+	padding: 20rem 0 5rem 0;
+}
+.header-content h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 3rem;
+}
+.header-content b{
+	color:#009E66;
+}
+.header-icon {
+	display: flex;
+	justify-content: end;
+	padding: 1.5rem 0;
+}
+.about-icon ul li a i,
+.header-icon ul li a i {
+	color: #ffffffd4;
+	font-size: 2.5rem;
+	padding: 1rem 0;
+	transition: 1s;
+}
+.about-icon ul li a:hover i,
+.header-icon ul li a:hover i{
+	color:#009E66;
+}
+
+
+	  /************************/
+	 /******* About CSS S ****/
+	/************************/
+
+.about-top {
+	text-align: center;
+	color: #9F9F9F;
+	margin-bottom: 10rem;
+}
+.about-bottom p,
+.about-top p {
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+.about-bottom h2,
+.about-top h2{
+	font-size: 4rem;
+	font-family: 'Grandstander', cursive;
+	font-weight: 700;
+	color:#fff;
+	position: relative;
+}
+.about-top h2::after {
+	content: "";
+	position: absolute;
+	bottom: -50%;
+	left: 0;
+	height: 5px;
+	width: 70px;
+	background: #009E66;
+	border-radius: 2px;
+	right: 0;
+	margin: 0 auto;
+}
+.about-img{
+	width:100%;
+	height: auto;
+}
+.about-img img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+}
+.about-details h2 {
+	font-size: 3rem;
+	color: #009E66;
+}
+.about-details h1 {
+	font-size: 3rem;
+	color: #fff;
+	font-family: 'Grandstander', cursive;
+	margin: 2rem 0;
+	font-weight: 800;
+}
+.about-area .row {
+	--bs-gutter-x: 6.5rem;
+	--bs-gutter-y: 0;
+}
+
+.about-details hr {
+	color: #9F9F9F;
+	margin-top: 4rem;
+}
+
+.about-left ul, .about-right ul {
+	display: flex;
+	justify-content: space-between;
+}
+.about-left li, .about-right ul {
+	font-size: 1.6rem;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	margin: .5rem 0;
+}
+.about-left span, .about-right span {
+	color: #9F9F9F;
+}
+.about-left ul li a{
+	color:#fff;
+}
+.about-left .em{
+	color: #009E66;
+}
+.about-icon {
+	padding: 3rem 0;
+}
+.about-icon ul{
+	display: flex;
+	justify-content: center;
+	padding: 0 1.5rem;
+}
+.about-icon ul li{
+	padding: 0 1rem;
+}
+.about-icon h4 {
+	font-size: 31px;
+	color: #fff;
+	line-height: 45px;
+}
+.service-item {
+	padding: 3rem;
+	background: #161616;
+	box-shadow: 0px 2px 4px;
+	margin-bottom: 5rem;
+	border-bottom: 2px solid transparent;
+	transition: 1s;
+}
+.service-item:hover{
+	border-bottom: 2px solid #009E66;
+}
+.sercice-icon {
+	font-size: 5rem;
+	color: #009E66;
+}
+.service-content h2 {
+	color: #fff;
+	margin: 1.5rem 0;
+	font-family: 'Grandstander', cursive;
+	font-weight: 800;
+}
+.testi-img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 2rem;
+}
+.testi-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	object-fit: cover;
+}
+.testi-details {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.testi-content h3 {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 900;
+}
+.testi-content h4 {
+	color: #9F9F9F;
+	font-family: 'Rubik', sans-serif;
+	margin-top: .5rem;
+}
+.testimonials {
+	position: relative;
+	padding: 3rem;
+	background: #161616;
+	box-shadow: 0px 2px 4px;
+	width: 50%;
+	margin: 0 auto;
+
+}
+.testimonials p {
+	margin-top: 3rem;
+}
+.testi-area.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #009E66;
+}
+.testi-area.owl-theme .owl-nav.disabled + .owl-dots {
+	margin-top: 30px;
+}
+
+	
+	  /************************/
+	 /****** Resume CSS S ****/
+	/************************/
+.contact-area,
+.resume-area {
+	background: #1b1b1c;
+}
+.resume-left{
+	border-left:2px solid #009E66;
+	position: relative;
+}
+.resume-lefts .resume-content:nth-child(3){
+	border-bottom: none;
+}
+.resume-area h2 {
+	color: #fff;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	font-family: 'Grandstander', cursive;
+}
+.resume-content {
+	padding:  3rem 3rem 3rem 5rem;
+	background: #161616;
+	border-bottom: 1px solid #9F9F9F4F;
+}
+.resume-content h3 {
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+}
+.resume-content h4 {
+	font-size: 1.6rem;
+	margin: .5rem 0;
+	color:#9F9F9F;
+}
+.clip-path {
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+	height: 2.5rem;
+	width: 4rem;
+	background: #009E66;
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+}
+.resume-content.ss {
+	border-bottom: none;
+}
+.skill-content h2{
+	font-weight: 700;
+}
+.percentCount {
+	float: right;
+	margin-top: 10px;
+	clear: both;
+	font-weight: bold;
+	font-family: Arial;
+	color: #fff;
+	position: absolute;
+	top: -40px;
+	font-size: 2rem;
+	left: 70%;
+}
+.pr h3 {
+	color: #fff;
+	font-size: 2rem;
+}
+
+	
+	  /************************/
+	 /****** Protfolio CSS S ****/
+	/************************/
+
+.protfolio-menu ul {
+	display: flex;
+	justify-content: center;
+}
+.protfolio-menu ul li {
+	font-size: 1.6rem;
+	color: #fff;
+	display: block;
+	margin: 0 1rem;
+	padding-bottom: .5rem;
+	text-transform: uppercase;
+	font-family: tahoma;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+	cursor: pointer;
+}
+.protfolio-menu ul li.active,
+.protfolio-menu ul li:hover {
+	border-bottom:  1px solid  #009E66;
+	color:#009E66;
+}
+
+.work-area {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 2rem 0;
+	overflow: hidden;
+	grid-gap: 2rem;
+}
+	
+.work-img {
+	width: 100%;
+	height: 22rem;
+}
+.work-img img{
+	width:100%;
+	height:100%;
+}
+.work-items .work-single-item{
+	position: relative;
+	overflow: hidden;
+}
+.work-items .work-single-item ul li a:hover {
+	color:#009E66;
+}
+.work-overly {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	top:-100%;
+	left: 0;
+	background: rgba(0,0,0, .5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-family: 'Grandstander', cursive;
+	font-weight: 700;
+	visibility: hidden;
+	transition: 1s;
+}
+.work-single-item:hover .work-overly{
+	visibility: visible;
+	top:0;
+
+}
+.work-popup{
+	color:#009E66;
+}
+
+
+
+	  /************************/
+	 /***** Contact CSS S ****/
+	/************************/
+.contact-info h2,
+.contact-form h2{
+	color:#fff;
+	margin-bottom: 2rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+}
+	
+
+input[type=text],
+input[type=email] {
+	padding: 1rem;
+	font-size: 1.6rem;
+	background: #111111c4;
+	color: #fff;
+	border: none;
+	width: 100%;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid transparent;
+	transition: 1s;
+}
+textarea:hover,
+input[type=text]:hover,
+input[type=email]:hover{
+	border-bottom:1px solid #009E66;
+}
+textarea {
+	padding: 1rem;
+	font-size: 1.6rem;
+	background: #111111c4;
+	color: #fff;
+	border: none;
+	width: 100%;
+	border-bottom: 1px solid transparent;
+	transition: 1s;
+}
+input[type="submit"] {
+	background: #009E66;
+	color: #fff;
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: 5rem;
+}
+.contact-info h3 {
+	color: #9F9F9F;
+	margin-bottom: 5rem;
+}
+
+.contact-icon ul li a i {
+	font-size: 3rem;
+	color: #009E66;
+	line-height: 30px;
+	padding: .5rem 0 3rem 0;
+}
+.contact-single-item {
+	margin-bottom: 2rem;
+	margin-left: 4rem;
+}
+.contact-single-item h5 {
+	color: #fff;
+	font-size: 1.6rem;
+	margin-bottom: .5rem;
+}
+.contact-single-item h6 {
+	color: #9F9F9F;
+	font-size: 1.6rem;
+}
+.contact-single-item a {
+	color: #009E66;
+	font-size: 1.6rem;
+}
+.contact-details {
+	border-left: 1px solid  #9F9F9F;
+}
+
+	  /************************/
+	 /***** Extra CSS S ****/
+	/************************/
+	
+.scroll-btn {
+	position: relative;
+	z-index: 22222222;
+}
+.btn-sty2 {
+	position: fixed;
+	bottom: 0;
+	right: 10%;
+	font-size: 3rem;
+	color: #009E66;
+	transition: 1s;
+	display: none;
+}
+
+.btn-sty2:hover{
+	color: #FFF;
+}
+
+.FixedHeader {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: black;
+	z-index: 999;
+}
+
+.nav-icon {
+	font-size: 2rem;
+	color: #fff;
+	padding: 3px 10px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	display: none;
+	transition: 1s ;
+}

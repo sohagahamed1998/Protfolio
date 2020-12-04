@@ -1,0 +1,141 @@
+@media all and (max-width: 991px){
+
+
+}
+
+
+@media all and (min-width: 768px){
+	.header-menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 767px){
+	.header-menu ul{
+		flex-direction: column;
+		display: none;
+		margin-top: 1rem;
+	}
+	.header-logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem 0;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.header-menu ul li a {
+		padding: 1rem 1rem;
+	}
+	.nav-icon:hover{
+		color:#009E66;
+		border:1px solid #009E66;
+	}
+	.header-title h1 {
+		padding: 5rem 0 5rem 0;
+	}
+	.about-details {
+		margin-top: 3rem;
+	}
+	.testimonials {
+		width: 100%;
+	}
+	.padding-2 {
+		padding-top: 0rem;
+	}
+	.about-top {
+		margin-bottom: 5rem;
+	}
+	.skill-content.padding-2 {
+		margin-top: 3rem;
+	}
+	.work-area {
+		grid-template-columns: 1fr 1fr;
+	}
+	.contact-info {
+		margin-top: 3rem;
+	}
+
+}
+
+
+
+@media all and (max-width: 576px){
+
+	.header-title h1 {
+		font-size: 3rem;
+		padding: 2rem 0 2rem 0;
+	}
+	.header-content h1 {
+		font-size: 2rem;
+	}
+	.header-icon {
+		justify-content: center;
+		padding: 0;
+	}
+	.header-icon ul {
+		display: flex;
+	}
+	.header-icon ul li {
+		padding: 0 .5rem;
+	}
+	.section-padding {
+		padding: 2rem 0;
+	}
+	.about-icon {
+		padding: 1rem 0;
+	}
+	.about-top {
+		margin-bottom: 6rem;
+	}
+	.about-bottom h2, .about-top h2 {
+		font-size: 3rem;
+	}
+	.about-details h1 {
+		font-size: 2.3rem;
+		margin: 1rem 0;
+	}
+	.about-left ul, .about-right ul {
+		flex-direction: column;
+	}
+	.about-icon ul {
+		padding: 0;
+	}
+	.about-icon ul {
+		justify-content: left;
+	}
+	.about-icon h4 {
+		font-size: 20px;
+	}
+	.about-icon ul li a i, .header-icon ul li a i {
+		font-size: 2rem;
+	}
+	.about-details hr {
+		margin-top: 2rem;
+	}
+	.padding-2 {
+		padding-top: 2rem;
+	}
+	.work-area {
+		grid-template-columns: 1fr;
+	}
+	.service-item {
+		margin-bottom: 2rem;
+	}
+	.about-bottom h2, .about-top h2 {
+		font-size: 2rem;
+	}
+	.about-top {
+		margin-bottom: 4rem;
+	}
+	.about-bottom p, .about-top p {
+		font-size: 1.6rem;
+	}
+	.about-top h2::after {
+		bottom: -70%;
+	}
+	.resume-area h2 {
+		font-size: 2rem;
+	}
+}
