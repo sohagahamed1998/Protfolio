@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	
+	AOS.init();
 
 	// Headline-JS
 	$('.header-content').animatedHeadline({
